@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors'); 
+const { errors } = require('celebrate');
 const routes = require('./routes');
 
 const app = express();
@@ -7,8 +8,9 @@ const app = express();
 app.use(cors()); //modulo de segurança
 app.use(express.json());/** express pega o corpo da requisição e converte o json em objeto javascript entendivel. Deve vir antes de todo o codigo  */
 app.use(routes);
+app.use(errors());
 
-
+module.exports = app;
 /**
  * Rota / Recurso
  */
@@ -41,6 +43,3 @@ app.use(routes);
  * Driver: SELECT * FROM USERS 
  * Query Builder: table(users).select('*').Where() - Pode mudar futuramente para outro banco de dado SQL pela compatibilidade 
  */
-
-
-app.listen(3333);
