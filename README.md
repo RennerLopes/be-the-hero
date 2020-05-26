@@ -3,12 +3,12 @@
 <img src="logo@3x.png">
 </h1> 
  <p align="center">
-  <a href="#📋-sobre-a-aplicação">Sobre</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-sobre-a-aplicação">Sobre</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#comportamento-desktop">App Desktop</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#comportamento-mobile">App Mobile</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#🚀-tecnologias-usadas">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#♻-como-baixar-o-projeto">Como Baixar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#📃-licença">Licença</a>
+  <a href="#-tecnologias-usadas">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-como-baixar-o-projeto">Como Baixar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
  # 📋 Sobre a Aplicação: 
